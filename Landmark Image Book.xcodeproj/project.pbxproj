@@ -12,6 +12,12 @@
 		FC95C9ED1E3CD4EA00D71E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC95C9EB1E3CD4EA00D71E68 /* Main.storyboard */; };
 		FC95C9EF1E3CD4EA00D71E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC95C9EE1E3CD4EA00D71E68 /* Assets.xcassets */; };
 		FC95C9F21E3CD4EA00D71E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC95C9F01E3CD4EA00D71E68 /* LaunchScreen.storyboard */; };
+		FC95C9FE1E3CD60000D71E68 /* colleseum.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FC95C9F91E3CD60000D71E68 /* colleseum.jpeg */; };
+		FC95C9FF1E3CD60100D71E68 /* greatwall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FC95C9FA1E3CD60000D71E68 /* greatwall.jpeg */; };
+		FC95CA001E3CD60100D71E68 /* kremlin.png in Resources */ = {isa = PBXBuildFile; fileRef = FC95C9FB1E3CD60000D71E68 /* kremlin.png */; };
+		FC95CA011E3CD60100D71E68 /* stonehenge.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FC95C9FC1E3CD60000D71E68 /* stonehenge.jpeg */; };
+		FC95CA021E3CD60100D71E68 /* tajmahal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FC95C9FD1E3CD60000D71E68 /* tajmahal.jpeg */; };
+		FC95CA041E3CDABB00D71E68 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95CA031E3CDABB00D71E68 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		FC95C9EE1E3CD4EA00D71E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC95C9F11E3CD4EA00D71E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC95C9F31E3CD4EA00D71E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC95C9F91E3CD60000D71E68 /* colleseum.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colleseum.jpeg; sourceTree = "<group>"; };
+		FC95C9FA1E3CD60000D71E68 /* greatwall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatwall.jpeg; sourceTree = "<group>"; };
+		FC95C9FB1E3CD60000D71E68 /* kremlin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kremlin.png; sourceTree = "<group>"; };
+		FC95C9FC1E3CD60000D71E68 /* stonehenge.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonehenge.jpeg; sourceTree = "<group>"; };
+		FC95C9FD1E3CD60000D71E68 /* tajmahal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tajmahal.jpeg; sourceTree = "<group>"; };
+		FC95CA031E3CDABB00D71E68 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +68,16 @@
 			children = (
 				FC95C9E71E3CD4EA00D71E68 /* AppDelegate.swift */,
 				FC95C9E91E3CD4EA00D71E68 /* ViewController.swift */,
+				FC95CA031E3CDABB00D71E68 /* ImageViewController.swift */,
 				FC95C9EB1E3CD4EA00D71E68 /* Main.storyboard */,
 				FC95C9EE1E3CD4EA00D71E68 /* Assets.xcassets */,
 				FC95C9F01E3CD4EA00D71E68 /* LaunchScreen.storyboard */,
 				FC95C9F31E3CD4EA00D71E68 /* Info.plist */,
+				FC95C9F91E3CD60000D71E68 /* colleseum.jpeg */,
+				FC95C9FA1E3CD60000D71E68 /* greatwall.jpeg */,
+				FC95C9FB1E3CD60000D71E68 /* kremlin.png */,
+				FC95C9FC1E3CD60000D71E68 /* stonehenge.jpeg */,
+				FC95C9FD1E3CD60000D71E68 /* tajmahal.jpeg */,
 			);
 			path = "Landmark Image Book";
 			sourceTree = "<group>";
@@ -125,8 +143,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC95C9F21E3CD4EA00D71E68 /* LaunchScreen.storyboard in Resources */,
+				FC95C9FF1E3CD60100D71E68 /* greatwall.jpeg in Resources */,
+				FC95CA011E3CD60100D71E68 /* stonehenge.jpeg in Resources */,
+				FC95CA021E3CD60100D71E68 /* tajmahal.jpeg in Resources */,
 				FC95C9EF1E3CD4EA00D71E68 /* Assets.xcassets in Resources */,
 				FC95C9ED1E3CD4EA00D71E68 /* Main.storyboard in Resources */,
+				FC95CA001E3CD60100D71E68 /* kremlin.png in Resources */,
+				FC95C9FE1E3CD60000D71E68 /* colleseum.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC95C9EA1E3CD4EA00D71E68 /* ViewController.swift in Sources */,
+				FC95CA041E3CDABB00D71E68 /* ImageViewController.swift in Sources */,
 				FC95C9E81E3CD4EA00D71E68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
